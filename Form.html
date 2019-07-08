@@ -5,7 +5,11 @@
 </head>
 <style>
     
-    input[type=button]{
+    input[type=submit]{
+        background-color: rgb(0, 88, 88);
+        color: white;
+    }
+    input[type=reset]{
         background-color: rgb(0, 88, 88);
         color: white;
     }
@@ -19,6 +23,7 @@
     <h1 style="font-family:forte; color: darkred; text-shadow: 1px 0px 5px black;" align="center">FEEDBACK</h1>
     <p align="center">You can help us to improvw our website by using the following form
         to let us know what you think or what needs to be changed</p>
+        <form method="GET">
     <table  align="center">
         <tr>
             <td align="left" class="style1">Name:</td>
@@ -75,12 +80,14 @@
         <center>
         <tr>
             <td></td>
-            <td> <input type="button" value="Submit"  /><input type="button" value="Reset" />
+            <td> <input type="submit" value="Submit"  /><input type="reset" value="Reset" />
             </td>
         </tr>
         </center>
+  
 
     </table>
+    </form>
 
 </body>
 
